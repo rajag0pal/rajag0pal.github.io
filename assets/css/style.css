@@ -1010,6 +1010,16 @@ section {
   width: 250px;
 }
 
+.extractoricon{
+  height: 100px;
+  width: 100px;
+}
+
+.mciicon{
+  height: 75px;
+  width: 75px;
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1299,4 +1309,146 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+
+
+/*--------------------------------------------------------------
+# PyHRM Section
+--------------------------------------------------------------*/
+
+.back-video{
+  width: 700px;
+  height: 500px;
+}
+
+#Pyhero {
+  /* width: 100%; */
+  height: 100vh;
+  /* background-size: cover; */
+  /* background-position:right; */
+  position: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  #Pyhero {
+    background-size: contain;
+    background-position: center top;
+    
+  }
+}
+
+#Pyhero:before {
+  content: "";
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/*
+#hero h1 {
+  margin: 0;
+  font-size: 4rem; 
+  font-weight: 700;
+  line-height: 1.4;
+  color: #45505b;
+  padding-left: 50%; 
+}
+
+#hero p {
+  padding-left: 50%; 
+  color: #45505b;
+  margin: 15px 0 0 0;
+  font-size: 1.3rem; 
+  font-family: "Poppins", sans-serif;
+}
+
+#hero p span {
+  color: #0563bb;
+  letter-spacing: 1px;
+}
+*/
+
+#Pyhero h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 56px;
+  color: #45505b;
+    padding-left: 600px;
+    /* align-self: auto; */
+}
+
+#Pyhero p {
+    padding-left: 600px;
+  color: #45505b;
+  margin: 15px 0 0 0;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+#Pyhero p span {
+  color: #0563bb;
+  letter-spacing: 1px;
+}
+
+
+#Pyhero .social-links {
+    padding-left: 600px;
+  margin-top: 30px;
+}
+
+#Pyhero .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #45505b;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#Pyhero .social-links a:hover {
+  color: #0563bb;
+}
+
+@media (max-width: 768px) {
+  #Pyhero {
+    text-align: center;
+  }
+
+  #Pyhero h1 {
+    font-size: 32px;
+    line-height: 36px;
+    padding-left: 0%;
+  }
+
+  #Pyhero p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 0%;
+  }
+
+  #Pyhero .social-links {
+    padding-left: 0%;
+  margin-top: 30px;
+}
+
+#Pyhero .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #45505b;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#Pyhero .social-links a:hover {
+  color: #0563bb;
+}
 }
