@@ -290,9 +290,10 @@ h6 {
   position: relative;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 768px) {
   #hero {
-    padding-left: 160px;
+    background-size: contain;
+    background-position: center top;
   }
 }
 
