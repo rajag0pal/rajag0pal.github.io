@@ -137,7 +137,7 @@ h6 {
   overflow-y: auto;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 768px) {
   #header {
     width: 300px;
     background: #fff;
@@ -292,8 +292,10 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
+    background: url("../img/hero-bg.jpg") top right no-repeat;
     background-size: contain;
     background-position: center top;
+    
   }
 }
 
@@ -306,6 +308,29 @@ h6 {
   left: 0;
   right: 0;
 }
+/*
+#hero h1 {
+  margin: 0;
+  font-size: 4rem; 
+  font-weight: 700;
+  line-height: 1.4;
+  color: #45505b;
+  padding-left: 50%; 
+}
+
+#hero p {
+  padding-left: 50%; 
+  color: #45505b;
+  margin: 15px 0 0 0;
+  font-size: 1.3rem; 
+  font-family: "Poppins", sans-serif;
+}
+
+#hero p span {
+  color: #0563bb;
+  letter-spacing: 1px;
+}
+*/
 
 #hero h1 {
   margin: 0;
@@ -314,6 +339,7 @@ h6 {
   line-height: 56px;
   color: #45505b;
     padding-left: 600px;
+    /* align-self: auto; */
 }
 
 #hero p {
@@ -328,6 +354,7 @@ h6 {
   color: #0563bb;
   letter-spacing: 1px;
 }
+
 
 #hero .social-links {
     padding-left: 600px;
@@ -347,7 +374,7 @@ h6 {
   color: #0563bb;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   #hero {
     text-align: center;
   }
@@ -355,13 +382,33 @@ h6 {
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
+    padding-left: 0%;
   }
 
   #hero p {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+    padding-left: 0%;
   }
+
+  #hero .social-links {
+    padding-left: 0%;
+  margin-top: 30px;
+}
+
+#hero .social-links a {
+  font-size: 24px;
+  display: inline-block;
+  color: #45505b;
+  line-height: 1;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+#hero .social-links a:hover {
+  color: #0563bb;
+}
 }
 
 /*--------------------------------------------------------------
