@@ -286,7 +286,7 @@ h6 {
   height: 100vh;
   background: url("../img/hero-bg.png") top right no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center right;
   position: relative;
 }
 
@@ -335,15 +335,15 @@ h6 {
 #hero h1 {
   margin: 0;
   font-size: 64px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 56px;
   color: #45505b;
-    padding-left: 600px;
+    padding-left: 800px;
     /* align-self: auto; */
 }
 
 #hero p {
-    padding-left: 600px;
+    padding-left: 800px;
   color: #45505b;
   margin: 15px 0 0 0;
   font-size: 26px;
@@ -357,7 +357,7 @@ h6 {
 
 
 #hero .social-links {
-    padding-left: 600px;
+    padding-left: 800px;
   margin-top: 30px;
 }
 
