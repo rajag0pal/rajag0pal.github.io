@@ -77,26 +77,78 @@
 
         <div class="row">
 
-          <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100" style="width:100%;">
             <div class="icon-box iconbox-blue">
-              <h4 ><a style="color: rgb(0, 87, 105);" href="">Highlights</a></h4>
+              <h4 ><a style="color: rgb(0, 87, 105);" href="">What is DNA Melting?</a></h4>
               <br>
-              <p style="text-align: left; font-size: 12px;" ><i class="bx bxs-rocket" style="color: crimson;"></i>&nbsp; This Feature extraction module will enable the classification of PCR products based on their melting curve shape,improving the <strong>accuracy rate by 30%</strong>.</p>
-              <br>
-              <p style="text-align: left; font-size: 12px;" ><i class="bx bxs-rocket" style="color:darkgoldenrod"></i>&nbsp; Engineered  for processing PCR products’ melting signals, resulting in <strong>50% faster signal processing</strong> and <strong>feature extraction</strong>.</p>
-              <br>
-              <p style="text-align: left; font-size: 12px;"><i class="bx bxs-rocket" style="color:green"></i>&nbsp; Features like melting temperatures, take-off & touch-down points of melting signal (Temperature at which peak start rising and
-                temperature at which peak falls down),peak prominences, and area under the curve are the outputs of PyHRM.</p>
+              <div class = "row">
+              <p style="text-align: left; font-size: 12px; width: 40%; margin-left: 7%;">DNA melt signals are the important output of PCR experiments, as they provide 
+                information about the characteristics of the amplified DNA. As the temperature increases, the 
+                double-stranded DNA begins to denature into single-strand, and the DNA-binding dye will 
+                dissociate from the DNA, causing a decrease in fluorescence. The temperature at which half of 
+                the double-stranded DNA is denatured is called the melting temperature (Tm). 
+                <br>
+
+                <!-- <div data-aos="zoom-in" data-aos-delay="100" style="width: 400px; height: 250px; margin-top:5%;"> -->
+                  
+                <!-- </div> -->
+
+                <br>
+
+
+                Each pathogen will be having different DNA melting temperatures and their respective 
+                signals will also possess different shapes and sizes. Usually, DNA melting signals are in bell-shaped curve with peaks, which denotes the melting point or the melting temperature of the 
+                DNA. Interpretation will be made through visual inspection, performed on such signal’s shape, 
+                peaks, and size. </p>
+
+
+                <video class="demo" id="videoPlayer" playsinline style="margin-top: 2%; margin-left: 15px; width:50%;" controls>
+                  <source src="assets/img/demoPCR.mp4" type="video/mp4">
+                </video>
+
+                <p style="margin-left: 30%;"><a href="http://www.youtube.com/@SiemensHealthineers">Video Credit: @SiemensHealthineers</a></p>
+                
+                </div>
               </div>
           </div>
 
-          <div class="back-video" data-aos="zoom-in" data-aos-delay="100">
-            <video autoplay loop muted plays-inline class="back-video">
-              <source src="assets/img/PyHRMTrailer.mp4" type="video/mp4">
-            </video>
+          <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100" style="margin-top: 3%; width: 100%;">
+            <div class="icon-box iconbox-blue">
+              <h4 ><a style="color: rgb(0, 87, 105);" href="">Signal Processing in DNA melting</a></h4>
+              <br>
+              <div class = "row">
+                
+                <img src="assets/img/melt.png" style="width:40%;margin-left: 8%;">
+
+                <img src="assets/img/peak.png" style="width:40%; margin-left: 3%;">
+
+                <p style="text-align: justify; font-size: 12px;  margin-left: 9%;width: 80%; margin-right: 3%; margin-top: 4%;" >To process the DNA melting signal, several techniques from signal processing can be 
+                  used. For example, noise reduction techniques, such as filtering and averaging, can be used to 
+                  remove random fluctuations in the signal and improve its accuracy. Signal processing 
+                  techniques can also be used to extract features from the melting curve, such as the melting 
+                  temperature, the shape of the curve, and the width of the transition region. These features can 
+                  then be used to compare different DNA samples or to detect mutations and structural variations 
+                  in the DNA molecule. Another important aspect of DNA melting signal processing is the use 
+                  of mathematical models to describe the melting process. Signal processing techniques play a 
+                  critical role in analysing and interpreting DNA melting signals, and can provide valuable 
+                  insights into the properties of the DNA molecule and its interactions with other molecules.
+                  </p>
+            
+                  <div class="icon">
+                    <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                    </svg>
+                    <i class="bx bx-health"></i>
+                  </div>
+
+                  
+                </div>
+              </div>
           </div>
 
-          <div class="section-title" style="font-size: 20px;">
+
+<!-- 
+          <div class="section-title" style="font-size: 20px; margin-top: 5%;">
             <h2>Key Features</h2>
             <p></p>
           </div>
@@ -204,40 +256,40 @@
         </div>
       </div>  
     </section>
-    
+     -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <!-- <footer id="footer">
     <div class="container">
       <h3>PyHRM</h3>
       <p>For more information and documentation reference,visit https://pypi.org/project/PyHRM/.</p>
       <div class="social-links">
         <a href="https://pypi.org/project/PyHRM/" class="twitter"><i class="bx bxl-python"></i></a>
-        <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+        <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
         <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
-      </div>
+      <!-- </div>
       <div class="copyright">
         &copy; Copyright <strong><span>Rajagopal S</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
+        All the links in the footer should remain intact. --> 
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: [license-url] -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
         <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-      </div>
+      <!-- </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>End Footer -->
 
-  <div id="preloader"></div>
+  <!-- <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  Vendor JS Files
+  <!-- <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -245,10 +297,10 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <!-- <script src="assets/js/main.js"></script> -->
 
 </body>
 
