@@ -1452,3 +1452,39 @@ section {
   color: #0563bb;
 }
 }
+
+/*--------------------------------------------------------------
+# Clients Section
+--------------------------------------------------------------*/
+.clients {
+  padding: 40px 0;
+}
+
+.clients .swiper {
+  padding: 10px 0;
+}
+
+.clients .swiper-slide img {
+  transition: 0.1s;
+}
+
+.clients .swiper-slide img:hover {
+  transform: scale(1.1);
+}
+
+.clients .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  background-color: #ddd;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--color-primary);
+}
